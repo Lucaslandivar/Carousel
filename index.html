@@ -5,9 +5,103 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Carousel JavaScript</title>
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="shortcut icon" href="img/bxs-car.svg" type="image/x-icon">
 </head>
 <body>
-    <h1>My first carousel in JavaScript!</h1>
+    <!-- Nav -->
+    <nav id="navbar">
+        <div class="logo">Mycar</div>
+    </nav>
+    <!-- Main section -->
+    <section id="main-section">
+        <div class="car-info">
+          <img src="/img/car 1.jpeg" alt="Car Image" class="car-image">
+          <div class="car-details">
+            <h2 class="car-title">Car Title</h2>
+            <p class="car-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu quam nec massa placerat fringilla et eu lectus.</p>
+          </div>
+        </div>
+      
+        <div class="car-info">
+          <img src="img/car 2.jpeg" alt="Car Image" class="car-image">
+          <div class="car-details">
+            <h2 class="car-title">Car Title</h2>
+            <p class="car-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu quam nec massa placerat fringilla et eu lectus.</p>
+          </div>
+        </div>
+      
+        <div class="car-info">
+          <img src="img/car 3.jpeg" alt="Car Image" class="car-image">
+          <div class="car-details">
+            <h2 class="car-title">Car Title</h2>
+            <p class="car-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eu quam nec massa placerat fringilla et eu lectus.</p>
+          </div>
+        </div>
+      </section>
+    <!-- Carousel -->
+    <!-- Carousel -->
+<section id="carousel-section">
+    <div class="carousel">
+      <div class="carousel-item">
+        <div class="carousel-content">
+          <img src="img/car4.jpeg" alt="Car Image 1" class="carousel-image">
+          <div class="carousel-caption">
+            <h3 class="carousel-title">Car 1</h3>
+            <p class="carousel-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-content">
+          <img src="img/car5.jpeg" alt="Car Image 2" class="carousel-image">
+          <div class="carousel-caption">
+            <h3 class="carousel-title">Car 2</h3>
+            <p class="carousel-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <div class="carousel-content">
+          <img src="img/car6.jpeg" alt="Car Image 3" class="carousel-image">
+          <div class="carousel-caption">
+            <h3 class="carousel-title">Car 3</h3>
+            <p class="carousel-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Form part -->
+  <section id="form-section">
+    <div class="form-container">
+      <h2>Contact Us</h2>
+      <form id="contact-form">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required></textarea>
+        </div>
+        <button type="submit">Submit</button>
+      </form>
+    </div>
+  </section>
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+          <p>&copy; 2023 Lucas Landivar. All rights reserved.</p>
+        </div>
+      </footer>
+      
+      
+      
+      
 
     <script src="JS/script.js"></script>
 </body>
